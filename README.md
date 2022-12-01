@@ -30,20 +30,7 @@ Use GCC to build `main.c` with the makefile provided.
 Done with [hyperfine](https://github.com/sharkdp/hyperfine) (see file `benchmark.bat`)
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `benchmark\adv1.exe` | 9.0 ± 0.7 | 8.2 | 12.3 | 1.09 ± 0.13 |
-| `benchmark\adv2.exe` | 9.7 ± 0.9 | 8.4 | 14.8 | 1.18 ± 0.16 |
-| `benchmark\adv3.exe` | 9.1 ± 1.0 | 7.7 | 13.2 | 1.10 ± 0.16 |
-| `benchmark\adv4.exe` | 13.2 ± 1.3 | 11.5 | 19.6 | 1.59 ± 0.22 |
-| `benchmark\adv5.exe` | 16.1 ± 1.4 | 14.7 | 23.9 | 1.95 ± 0.25 |
-| `benchmark\adv6.exe` | 8.3 ± 0.8 | 6.7 | 12.8 | 1.00 |
-| `benchmark\adv7.exe` | 12.9 ± 2.6 | 9.2 | 20.4 | 1.56 ± 0.35 |
-| `benchmark\adv8.exe` | 12.1 ± 1.5 | 9.4 | 17.0 | 1.46 ± 0.23 |
-| `benchmark\adv9.exe` | 14.3 ± 1.9 | 11.1 | 24.9 | 1.72 ± 0.28 |
-| `benchmark\adv10.exe` | 11.2 ± 1.5 | 8.8 | 14.9 | 1.36 ± 0.22 |
-| `benchmark\adv11.exe` | 11.4 ± 1.2 | 9.2 | 16.8 | 1.38 ± 0.19 |
-| `benchmark\adv12.exe` | 100.6 ± 6.0 | 90.3 | 113.0 | 12.16 ± 1.38 |
-| `benchmark\adv13.exe` | 21.9 ± 2.0 | 18.5 | 30.4 | 2.64 ± 0.35 |
-| `benchmark\adv14.exe` | 16.5 ± 6.9 | 9.3 | 38.7 | 1.99 ± 0.85 |
+| `benchmark\adv1.exe` | 15.0 ± 2.7 | 9.8 | 21.0 | 1.00 |
 
 ## Building in SublimeText3 (Win)
 

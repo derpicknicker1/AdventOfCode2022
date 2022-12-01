@@ -1,8 +1,8 @@
 @echo off
 echo Building executeables...
 if not exist "benchmark" mkdir benchmark
-set start=15
-set end=15
+set start=1
+set end=1
 for /l %%x in (%start%, 1, %end%) do (   
 	echo Building Day %%x
 	(
