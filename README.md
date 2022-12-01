@@ -10,9 +10,9 @@ The `*.txt` files in `input/` contain the original input for the tasks.
 
 Use GCC to build `main.c` with the makefile provided.
 
-![C/C++ CI](https://github.com/derpicknicker1/AdventOfCode2021/workflows/C/C++%20CI/badge.svg)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/derpicknicker1/AdventOfCode2021)
-![GitHub repo size](https://img.shields.io/github/repo-size/derpicknicker1/AdventOfCode2021)
+![C/C++ CI](https://github.com/derpicknicker1/AdventOfCode2022/workflows/C/C++%20CI/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/derpicknicker1/AdventOfCode2022)
+![GitHub repo size](https://img.shields.io/github/repo-size/derpicknicker1/AdventOfCode2022)
 #### Stats
 ![](https://img.shields.io/badge/day%20📅-1-blue)
 ![](https://img.shields.io/badge/stars%20⭐-2-yellow)
