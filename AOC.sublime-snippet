@@ -1,0 +1,62 @@
+<snippet>
+	<content><![CDATA[
+/*
+
+*/
+#include "advent.h"
+
+static int *arr;
+static int cnt;
+
+/*##########################
+# Get input data from file #
+##########################*/
+static bool getInput(char *f) {
+	char line[1000];
+	arr = NULL;
+	cnt = 0;
+
+	FILE *file = fopen(f, "r");
+	if (file == NULL) {
+		printf("ERR: CAN NOT OPEN '%s'\n\n", f);
+		return false;
+	}
+
+	while (fscanf(file, "%[^\n] ", line) != EOF) {
+	
+	}
+
+	fclose(file);
+	return true;
+}
+
+/*##########################
+# Function to solve part A #
+##########################*/
+void get$1a(char * f) {
+	if (!getInput(f)) return;
+	
+	int result = 0;
+	
+	printf("$1a: %d\n", result);
+	free(arr);
+}
+
+/*##########################
+# Function to solve part B #
+##########################*/
+void get$1b(char *f) {
+	if (!getInput(f)) return;
+
+	int result = 0;
+
+	printf("$1b: %d\n\n", result);
+	free(arr);
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>AOC</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
