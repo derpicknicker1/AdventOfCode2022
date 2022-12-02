@@ -37,8 +37,8 @@ int main(int argc, char* argv[]) {
 	
 	// execute(0) // EXAMPLE
 	execute(1)
-	/*execute(2)
-	execute(3)
+	execute(2)
+	/*execute(3)
 	execute(4)
 	execute(5)
 	execute(6)

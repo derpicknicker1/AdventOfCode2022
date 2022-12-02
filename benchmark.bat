@@ -2,7 +2,7 @@
 echo Building executeables...
 if not exist "benchmark" mkdir benchmark
 set start=1
-set end=1
+set end=2
 for /l %%x in (%start%, 1, %end%) do (   
 	echo Building Day %%x
 	(
@@ -13,7 +13,7 @@ for /l %%x in (%start%, 1, %end%) do (
 )
 
 echo Starting benchmarks...
-.\hyperfine\hyperfine.exe -w 3 --export-markdown benchmark/out.md -P num %start% %end% "benchmark\adv{num}.exe"
+.\hyperfine\hyperfine.exe -w 30 --export-markdown benchmark/out.md -P num %start% %end% "benchmark\adv{num}.exe"
 
 echo &echo,&echo,Results:
 type benchmark\out.md
