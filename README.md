@@ -33,8 +33,10 @@ Use GCC to build `main.c` with the makefile provided.
 Done with [hyperfine](https://github.com/sharkdp/hyperfine) (see file `benchmark.bat`)
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `benchmark\adv1.exe` | 15.2 ± 3.7 | 9.4 | 30.6 | 1.00 |
-| `benchmark\adv2.exe` | 18.7 ± 3.5 | 10.6 | 36.1 | 1.23 ± 0.38 |
+| `benchmark\adv1.exe` | 4.9 ± 0.9 | 3.6 | 10.0 | 1.15 ± 0.27 |
+| `benchmark\adv2.exe` | 5.3 ± 1.1 | 3.7 | 11.2 | 1.25 ± 0.31 |
+| `benchmark\adv3.exe` | 4.4 ± 1.0 | 3.5 | 10.6 | 1.04 ± 0.28 |
+| `benchmark\adv4.exe` | 4.3 ± 0.6 | 3.5 | 8.1 | 1.00 |
 ## Building in SublimeText3 (Win)
 
 * Install Mingw
