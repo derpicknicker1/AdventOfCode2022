@@ -14,7 +14,7 @@ Use GCC to build `main.c` with the makefile provided.
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/derpicknicker1/AdventOfCode2022)
 ![GitHub repo size](https://img.shields.io/github/repo-size/derpicknicker1/AdventOfCode2022)
 #### Stats
-![](https://img.shields.io/badge/day%20📅-6-blue)
+![](https://img.shields.io/badge/day%20📅-7-blue)
 ![](https://img.shields.io/badge/stars%20⭐-12-yellow)
 ![](https://img.shields.io/badge/days%20completed-6-red)
 
