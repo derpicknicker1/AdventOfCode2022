@@ -36,10 +36,13 @@ Use GCC to build `main.c` with the makefile provided.
 Done with [hyperfine](https://github.com/sharkdp/hyperfine) (see file `benchmark.bat`)
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `benchmark\adv2.exe` | 5.3 ± 1.1 | 3.7 | 11.2 | 1.25 ± 0.31 |
-| `benchmark\adv1.exe` | 4.9 ± 0.9 | 3.6 | 10.0 | 1.15 ± 0.27 |
-| `benchmark\adv3.exe` | 4.4 ± 1.0 | 3.5 | 10.6 | 1.04 ± 0.28 |
-| `benchmark\adv4.exe` | 4.3 ± 0.6 | 3.5 | 8.1 | 1.00 |
+| `benchmark\adv1.exe` | 3.0 ± 1.1 | 1.9 | 9.9 | 5.08 ± 5.57 |
+| `benchmark\adv2.exe` | 3.6 ± 1.3 | 2.0 | 9.8 | 6.05 ± 6.63 |
+| `benchmark\adv3.exe` | 2.4 ± 0.9 | 0.6 | 5.8 | 3.96 ± 4.39 |
+| `benchmark\adv4.exe` | 1.9 ± 1.2 | 0.7 | 8.3 | 3.26 ± 3.96 |
+| `benchmark\adv5.exe` | 2.6 ± 1.5 | 0.9 | 8.2 | 4.40 ± 5.20 |
+| `benchmark\adv6.exe` | 2.6 ± 1.7 | 0.8 | 10.6 | 4.29 ± 5.31 |
+| `benchmark\adv7.exe` | 0.6 ± 0.6 | 0.0 | 4.4 | 1.00 |
 ## Building in SublimeText3 (Win)
 
 * Install Mingw
