@@ -1,15 +1,15 @@
 @echo off
 echo Building executeables...
 if not exist "benchmark" mkdir benchmark
-set start=7
-set end=7
+set start=1
+set end=9
 for /l %%x in (%start%, 1, %end%) do (   
 	echo Building Day %%x
 	(
     echo #include "advent.h"
     echo int main(int argc, char* argv[]^){
     echo get%%xa("input/%%x.txt"^);get%%xb("input/%%x.txt"^);return 0;} ) >benchmark/main.c
-   gcc -o benchmark/adv%%x benchmark/main.c src/advent%%x.c src/helper.c -I src/
+    gcc -o benchmark/adv%%x benchmark/main.c src/advent%%x.c src/helper.c -I src/
 )
 @REM SETLOCAL
 @REM SET PATH=%PATH%;C:\Users\Flow\OneDrive\Dokumente\GitHub\AdventOfCode2022\benchmark
