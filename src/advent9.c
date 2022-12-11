@@ -679,7 +679,7 @@ Your puzzle answer was 2619.
 
 int resultA = 0, resultB = 0;
 
-static bool check(int posH[2], int posT[2], bool chk) {
+static bool check(int posH[], int posT[], bool chk) {
 	for ( int i = 0; i < 2; i++ ) {
 		if ( abs(posH[i] - posT[i] ) > 1 ) {
 			posT[i] += (posH[i] - posT[i]) / 2; 
